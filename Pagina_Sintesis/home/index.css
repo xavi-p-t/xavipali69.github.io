@@ -1,0 +1,197 @@
+/*menu*/
+.nav {
+	margin: 27px auto 0;
+
+	position: relative;
+	width: 470px;
+	height: 50px;
+	background-color: transparent;
+	border-radius: 8px;
+	font-size: 0;
+}
+.nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+}
+.nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 160px;
+}
+
+.nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color: #26f5cb;
+}
+.nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #e74c3c;
+}
+.nav .start-blog, a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 210px;
+	background-color: #3498db;
+}
+.nav .start-portefolio, a:nth-child(4):hover~.animation {
+	width: 160px;
+	left: 310px;
+	background-color: #9b59b6;
+}
+span {
+    color: #2BD6B4;
+}
+.cabra {
+  margin-left: 28%;
+  margin-top: -1%;
+  position:absolute;
+}
+/* imagenes*/
+.tres_imagenes{
+    margin-left: 60%;
+	margin-top: 3%;
+}
+.margen_img{
+	margin-left: 2%;
+}
+/*el resto del inicio*/
+.textoinicio{
+	position: absolute;
+	top:30%;
+	left:35%;
+	color: white;
+}
+.imageninicio{
+	position: absolute;
+	top:30%;
+	left:15%;
+}
+/*raya del inicio mas corto*/
+hr{
+	margin-top: -17px;
+	width: 130PX; 
+	margin-left: 0px;
+}
+/*los dos textos*/
+.texto1{
+	position:absolute;
+	top:145%;
+	left:19%;
+	color: #0061a1;
+	background-color: #ececec;
+}
+.texto2{
+	position:absolute;
+	top:148%;
+	left:21%;
+	color: #0cb895;
+	background-color: #ececec;
+}
+/*cuarotextos*/
+.cuatrotextos1{
+	position: absolute;
+	top:180%;
+	left:30%;
+	width:500px;
+}
+.cuatrotextos2{
+	position: absolute;
+	top:180%;
+	left:60%;
+	width:500px;
+}
+.cuatrotextos3{
+	position: absolute;
+	top:150%;
+	left:30%;
+	width:500px;
+}
+.cuatrotextos4{
+	position: absolute;
+	top:150%;
+	left:60%;
+	width:500px;
+}
+/*fondo*/
+.fondo{
+	background-color: #ececec;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+.divtext{
+	position:absolute;
+	margin-top: -50%;
+	margin-left: 21%;
+	height: 500px;
+}
+svg {
+    display: block;
+    font: 5em 'Montserrat';
+    width: 1080px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #6200ff;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #ff00f2;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #ff5384;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #00e1ff;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #24005f;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}

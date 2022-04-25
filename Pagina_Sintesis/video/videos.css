@@ -1,0 +1,139 @@
+/*menu*/
+nav {
+	margin: 27px auto 0;
+
+	position: relative;
+	width: 470px;
+	height: 50px;
+	background-color: transparent;
+	border-radius: 8px;
+	font-size: 0;
+}
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+}
+nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+}
+a:nth-child(1) {
+	width: 100px;
+}
+a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+}
+a:nth-child(4) {
+	width: 160px;
+}
+
+nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 0;
+	background-color: #26f5cb;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 100px;
+	background-color: #e74c3c;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 210px;
+	background-color: #3498db;
+}
+nav .start-portefolio, a:nth-child(4):hover~.animation {
+	width: 160px;
+	left: 310px;
+	background-color: #9b59b6;
+}
+span {
+    color: #2BD6B4;
+}
+.cabra {
+  margin-left: 28%;
+  margin-top: -1%;
+  position:absolute;
+}
+/*posicionar textos videos*/
+
+.caja1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+body {
+	margin:0px;
+  }
+  .colour-block {
+	background:#88fbff;
+	width:60%;
+	padding:7% 20% 10% 20%;
+	color:rgb(0, 0, 0);
+  }
+  .white-block {
+	background:#fff;
+	width:60%;
+	padding:7% 20% 10% 20%;
+	color:#000000;
+  }
+  
+  
+  /*------------------*/
+  /*  SKEW CLOCKWISE  */
+  /*------------------*/
+  .skew-cc{
+	width:100%;
+	height:100px;
+	position:absolute;
+	left:0px;
+	background: linear-gradient(to right bottom, #88fbff 49%, #fff 50%),    linear-gradient(-50deg, #ffffff 16px, rgb(255, 251, 251) 0);
+  }
+  
+  
+  /*-------------------------*/
+  /* SKEW COUNTER CLOCKWISE  */
+  /*-------------------------*/
+  .skew-c{
+	width:100%;
+	height:100px;
+	position:absolute;
+	left:0px;
+	background: linear-gradient(to left bottom, #fff 49%, #88fbff 50%);
+  }
+  .video{
+	  margin-top: 10%;
+  }
+  .textosizq{
+	  margin-top: 15%;
+	  margin-left: 5%;
+  }
+  .textosder{
+	margin-top: 15%;
+	margin-right: 5%;
+	width: 500px;
+}
+.pe{
+	margin-top: 40%;
+	width: 500px;
+}
+.primer{
+	margin-top: 35%;
+	  margin-left: 5%;
+}
