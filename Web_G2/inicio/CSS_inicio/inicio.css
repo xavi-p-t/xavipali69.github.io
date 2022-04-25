@@ -1,0 +1,75 @@
+@import "https://unpkg.com/transition-style";
+
+div {
+  display: grid;
+  place-items: center;
+}
+
+html {
+  block-size: 100%;
+  inline-size: 100%;
+}
+
+body {
+  min-block-size: 100%;
+  min-inline-size: 100%;
+  margin: 0;
+  padding: 2ch;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+  display: grid;
+  place-items: center;
+}
+h1{
+  font-size: 100px;
+  font-family: 'Dancing Script', cursive;
+}
+/*deplegable*/
+.menu{
+  overflow:visible;
+  position: absolute;
+  top: 0px;
+  bottom: 500px;
+  left:650px;
+  right: 0px;
+}
+.menu ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.menu a {
+  display: block;
+  padding: 2em;
+  background-color: #3a3939;
+  text-decoration: none;
+  color: #f0f3ff;
+}
+.menu a:hover {
+  background-color: #a72727f5;
+}
+.menu ul li ul {
+  display: none;
+  
+}
+.menu ul li a:hover + ul, .menu ul li ul:hover {
+  display: block;
+  overflow:auto;
+}
+/*titulo inicio*/
+#titulo{
+  position:absolute;
+  right: 350px;
+  top: 400PX;
+  left:500px;
+  z-index: 4;
+  color: #961212;
+  }
+img{
+  z-index: -5;
+}
+/*fondo*/
+html{
+  background-color: #beb9b9;
+}
