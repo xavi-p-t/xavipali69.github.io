@@ -22,5 +22,6 @@ Catalan: Nativo<br>
 Español: Nativo<br>
 Ingles: B2<br>
 ## Que he hecho<br>
-[Examen de HTML](Examen_HTML)
-
+[Examen de HTML](Examen_HTML)<br>
+[Proyecto pagina web de G2](Proyecto_G2)<br>
+[Pagina de sintesis](Pagina_Sintesis)<br>
