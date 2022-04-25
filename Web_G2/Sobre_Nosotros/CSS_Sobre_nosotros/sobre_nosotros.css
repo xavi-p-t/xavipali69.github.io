@@ -1,0 +1,45 @@
+/*desplegable*/
+.menu{
+    overflow:visible;
+    position: absolute;
+    top: 0px;
+    bottom: 500px;
+    left:650px;
+    right: 0px;
+  }
+  .menu ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  .menu a {
+    display: block;
+    padding: 2em;
+    background-color: #3a3939;
+    text-decoration: none;
+    color: #f0f3ff;
+  }
+  .menu a:hover {
+    background-color: #a72727f5;
+  }
+  .menu ul li ul {
+    display: none;
+    
+  }
+  .menu ul li a:hover + ul, .menu ul li ul:hover {
+    display: block;
+    overflow:auto;
+  }
+
+  /*fondo*/
+html{
+  background-color: #beb9b9;
+}
+/*letras*/
+p{
+  font-family: 'Source Serif Pro', serif;
+}
+h1{
+  font-family: 'Oswald', sans-serif;
+}
