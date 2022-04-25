@@ -22,7 +22,4 @@ Catalan: Nativo<br>
 Español: Nativo<br>
 Ingles: B2<br>
 ## Que he hecho
-- ___Mis trabajos___ <br>
-<a href="Web_G2">Proyecto web g2</a><br>
-<a href="Pagina_Sintesis">Pagina para sintesis</a><br>
-<a href="Examen_HTML">Examen de HTML</a><br>
+
