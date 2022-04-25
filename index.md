@@ -12,7 +12,7 @@ Gmail: xavi.palma06@gmail.com
 1er año SMX, IFP, Hospitalet, Septiembre 2020 - Junio 2021 <br>
 ESO, Esteve Terrades, Cornellá de Llobregat, Septiembre 2016 - Junio 2020 <br>
 
-## sobre mi
+## Sobre mi
 - ___Información personal___ <br>
 Soy estudiante de SMX, tengo muchas ganas de poder hacer las prácticas lo antes posible. <br>
 Me gusta mucho el deporte, he practicado boxeo, rugbi, hockey, fútbol e hice un campamento de handball, aunque actualmente no estoy haciendo nada. <br>
