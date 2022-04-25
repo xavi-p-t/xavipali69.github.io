@@ -17,7 +17,7 @@ ESO, Esteve Terrades, Cornellá de Llobregat, Septiembre 2016 - Junio 2020 <br>
 Soy estudiante de SMX, tengo muchas ganas de poder hacer las prácticas lo antes posible. <br>
 Me gusta mucho el deporte, he practicado boxeo, rugbi, hockey, fútbol e hice un campamento de handball, aunque actualmente no estoy haciendo nada. <br>
 Aparte de eso en la eso hice un voluntariado para la cruz roja en navidad. <br>
--___Idiomas___<br>
+- ___Idiomas___<br>
 Catalan: Nativo<br>
 Español: Nativo<br>
 Ingles: B2<br>
